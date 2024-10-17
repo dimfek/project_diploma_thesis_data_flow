@@ -6,10 +6,10 @@ import pytz
 
 conn = psycopg2.connect(
     database = "postgres",
-    user = "postgres",
-    password = "admin",
-    host= "localhost",
-    port = "5432"
+    user = "##########",
+    password = "##########",
+    host= "##########",
+    port = "##########"
 )
 
 print("Database Connected Successfully")
