@@ -3,13 +3,13 @@ import json
 import pyrebase
 
 firebaseConfig = {
-    'apiKey': "AIzaSyD61QMHqVQjPvK2ZlpJ5Hl5rAH0DJ2hEMo",
-    'authDomain': "mqtt-apachekafka.firebaseapp.com",
-    'projectId': "mqtt-apachekafka",
-    'storageBucket': "mqtt-apachekafka.appspot.com",
-    'messagingSenderId': "339179220797",
-    'appId': "1:339179220797:web:355350b4d787a8a69d1f54",
-    'databaseURL': "https://mqtt-apachekafka-default-rtdb.europe-west1.firebasedatabase.app/"  #add database_url
+    'apiKey': "################",
+    'authDomain': "#################",
+    'projectId': "#####################",
+    'storageBucket': "###################",
+    'messagingSenderId': "######################",
+    'appId': "####################################",
+    'databaseURL': "####################################"  #add database_url
 }
 #To inititialize the app with these configuration information
 firebase = pyrebase.initialize_app(firebaseConfig)
